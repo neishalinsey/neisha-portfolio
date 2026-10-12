@@ -70,6 +70,14 @@ function App() {
               <a href="#about" className="secondary-button">
                 About Me
               </a>
+
+              <a
+                href="/Jay_SE_2028.pdf"
+                download="Jay_SE_2028.pdf"
+                className="secondary-button"
+              >
+                Download Resume
+              </a>
             </div>
 
             <p className="graduation">
