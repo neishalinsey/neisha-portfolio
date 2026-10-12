@@ -382,3 +382,20 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* Contact Section */
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section p {
+  max-width: 600px;
+  margin: 0 auto 28px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}

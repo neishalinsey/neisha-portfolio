@@ -41,11 +41,12 @@ function App() {
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </nav>
       </header>
 
-      {/* Homepage Introduction */}
       <main>
+        {/* Homepage Introduction */}
         <section id="home" className="hero">
           <div className="hero-content">
             <p className="intro-label">SOFTWARE ENGINEERING STUDENT</p>
@@ -85,6 +86,7 @@ function App() {
                   <span className="dot yellow"></span>
                   <span className="dot green"></span>
                 </div>
+
                 <span className="file-name">developer.js</span>
               </div>
 
@@ -92,10 +94,12 @@ function App() {
                 <div>
                   <span className="code-purple">const</span> developer = {"{"}
                 </div>
+
                 <div>
                   {" "}
                   name: <span className="code-green">"Neisha Jay"</span>,
                 </div>
+
                 <div>
                   {" "}
                   role:{" "}
@@ -104,32 +108,46 @@ function App() {
                   </span>
                   ,
                 </div>
+
                 <div> skills: [</div>
+
+                <div>
+                  {" "}
+                  <span className="code-green">"Python"</span>,
+                </div>
+
                 <div>
                   {" "}
                   <span className="code-green">"JavaScript"</span>,
                 </div>
+
                 <div>
                   {" "}
                   <span className="code-green">"React"</span>,
                 </div>
+
                 <div>
                   {" "}
                   <span className="code-green">"Java"</span>,
                 </div>
+
                 <div>
                   {" "}
                   <span className="code-green">"C++"</span>
                 </div>
+
                 <div> ],</div>
+
                 <div>
                   {" "}
                   graduation: <span className="code-orange">2028</span>,
                 </div>
+
                 <div>
                   {" "}
                   openToInternships: <span className="code-purple">true</span>
                 </div>
+
                 <div>{"}"}</div>
               </div>
             </div>
@@ -139,6 +157,7 @@ function App() {
         {/* About Section */}
         <section id="about" className="content-section">
           <p className="section-label">01 / ABOUT</p>
+
           <h2>A little about me.</h2>
 
           <p>
@@ -151,6 +170,7 @@ function App() {
         {/* Skills Section */}
         <section id="skills" className="content-section">
           <p className="section-label">02 / SKILLS</p>
+
           <h2>Technologies I'm learning.</h2>
 
           <div className="skills-container">
@@ -165,8 +185,10 @@ function App() {
           </div>
         </section>
 
-        {/* Projects Section */}
+        {/* Featured Projects Section */}
         <section id="projects" className="content-section">
+          <p className="section-label">03 / PROJECTS</p>
+
           <h2>Featured Projects</h2>
 
           <p>
@@ -192,8 +214,41 @@ function App() {
             ))}
           </div>
         </section>
+
+        {/* Contact Section */}
+        <section id="contact" className="content-section contact-section">
+          <p className="section-label">04 / CONTACT</p>
+
+          <h2>Let's Connect</h2>
+
+          <p>
+            I'm currently seeking software engineering internships and
+            opportunities to grow as a developer. Feel free to connect with me!
+          </p>
+
+          <div className="contact-links">
+            <a
+              href="https://github.com/neishalinsey"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="primary-button"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/neisha-jay-4015a4283/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="secondary-button"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </section>
       </main>
 
+      {/* Footer */}
       <footer>
         <p>© 2026 Neisha Jay. Built with React.</p>
       </footer>
