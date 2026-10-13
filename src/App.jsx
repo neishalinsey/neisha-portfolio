@@ -3,14 +3,6 @@ import "./App.css";
 const projects = [
   {
     id: 1,
-    title: "Merchant Portal",
-    description:
-      "An ongoing team project to create a merchant dashboard for viewing transaction and business information.",
-    technologies: ["React", "JavaScript", "CSS"],
-    status: "In Progress",
-  },
-  {
-    id: 2,
     title: "Tetris Game",
     description:
       "A Java implementation of Tetris using object-oriented programming and the Model-View-Controller design pattern.",
@@ -18,7 +10,7 @@ const projects = [
     status: "Completed",
   },
   {
-    id: 3,
+    id: 2,
     title: "Traveling Knight",
     description:
       "A C++ algorithms project exploring the movement of a knight across a chessboard.",
