@@ -8,6 +8,7 @@ const projects = [
       "A Java implementation of Tetris using object-oriented programming and the Model-View-Controller design pattern.",
     technologies: ["Java", "OOP", "MVC"],
     status: "Completed",
+    demoUrl: "https://youtu.be/xj3OXRD97O4",
   },
   {
     id: 2,
@@ -229,6 +230,16 @@ function App() {
                     <span key={technology}>{technology}</span>
                   ))}
                 </div>
+                {project.demoUrl && (
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="demo-button"
+                  >
+                    Watch Demo ▶
+                  </a>
+                )}
               </article>
             ))}
           </div>

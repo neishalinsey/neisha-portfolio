@@ -415,3 +415,23 @@ footer {
 .about-description p:last-child {
   margin-bottom: 0;
 }
+
+.demo-button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #a78bfa;
+  color: #151426;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 8px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.demo-button:hover {
+  background-color: #c4b5fd;
+  transform: translateY(-2px);
+}
