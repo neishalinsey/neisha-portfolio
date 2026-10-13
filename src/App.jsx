@@ -157,14 +157,30 @@ function App() {
         {/* About Section */}
         <section id="about" className="content-section">
           <p className="section-label">01 / ABOUT</p>
-
           <h2>A little about me.</h2>
 
-          <p>
-            I'm pursuing a Bachelor's degree in Software Engineering and a
-            certificate in Digital Arts at Penn State. I enjoy combining
-            creativity with technical problem-solving.
-          </p>
+          <div className="about-description">
+            <p>
+              I'm a Software Engineering student at Penn State University,
+              graduating in May 2028 with a certificate in Digital Arts. I enjoy
+              combining creativity and technology to build applications that are
+              both functional and engaging.
+            </p>
+
+            <p>
+              I love bringing ideas to life, from planning and designing to
+              coding and solving problems along the way. Through my coursework
+              and projects, I've gained experience with Java, Python, C++,
+              JavaScript, and React.
+            </p>
+
+            <p>
+              I'm currently focused on expanding my web development skills and
+              creating projects that challenge me to grow. I'm also actively
+              seeking software engineering internships where I can gain
+              real-world experience and collaborate with other developers.
+            </p>
+          </div>
         </section>
 
         {/* Skills Section */}
