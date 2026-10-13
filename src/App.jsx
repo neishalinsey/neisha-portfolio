@@ -192,8 +192,11 @@ function App() {
           <h2>Featured Projects</h2>
 
           <p>
-            A selection of projects I've worked on while studying software
-            engineering.
+            A collection of academic projects showcasing my experience in
+            software development, object-oriented programming, and algorithm
+            design. Through these projects, I've gained hands-on experience
+            building applications, solving programming challenges, and testing
+            and debugging code using Java and C++.
           </p>
 
           <div className="projects-grid">
