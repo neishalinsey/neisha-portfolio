@@ -247,6 +247,12 @@ function App() {
 
           <div className="contact-links">
             <a
+              href="mailto:neishalinsey00@gmail.com"
+              className="secondary-button"
+            >
+              <span>✉</span> Email Me
+            </a>
+            <a
               href="https://github.com/neishalinsey"
               target="_blank"
               rel="noopener noreferrer"
