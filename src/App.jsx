@@ -45,7 +45,8 @@ function App() {
 
             <h1>
               Hi, I'm Neisha.
-              <br />I build things <span>with code.</span>
+              <br /> A software engineering student bringing creative ideas to
+              life through clean, functional code.
             </h1>
 
             <p className="hero-description">
